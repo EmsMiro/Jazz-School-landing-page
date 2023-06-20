@@ -1,3 +1,51 @@
 *{
     font-family:'Roboto', sans-serif;
 }
+
+:root {
+    --color-primary:#ED4D1B;
+    --color-secondary:#FF9A3C;
+    --color-black:#000;
+    --color-white:#fff;
+    --color-gradient: linear-gradient(90deg, #FFE7D1 0%, #FFF2E6 100%);    
+}
+
+body{
+    background: var(--color-gradient);
+    background-repeat: no-repeat;
+    padding: 0 1rem;
+}
+/* Utilitarios */
+
+.mt-1 {
+    margin-top: 1rem;
+  }
+  
+  .mt-2 {
+    margin-top: 2rem;
+  }
+  
+  .mb-1 {
+    margin-bottom: 1rem;
+  }
+  
+  .mb-2 {
+    margin-bottom: 2rem;
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .text-primary {
+    color: var(--color-primary);
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+p {
+    font-family: 'Nunito', sans-serif;
+}
