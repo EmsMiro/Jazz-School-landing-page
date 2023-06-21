@@ -10,15 +10,84 @@
     --color-gradient: linear-gradient(90deg, #FFE7D1 0%, #FFF2E6 100%);    
 }
 
-body{
+body {
     background: var(--color-gradient);
     background-repeat: no-repeat;
     padding: 0 1rem;
 }
 
-header{
-    border: 0px 1px 1px 1px solid var(--color-black);
+header, 
+.hero-section,
+.courses-section,
+ footer {
+    border-color: var(--color-black);
+    border-style: solid;
+    border-width: 0px 1px  1px 1px;
     padding: 1.25rem;
+}
+
+header img {
+  display: block;
+  margin: 1rem auto;
+}
+
+header nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+nav a {
+  color: var(--color-black);
+  font-size: 1.25rem;
+  padding: .5rem;
+  text-decoration: none;
+}
+
+header nav a:nth-child(2n - 1) {
+text-align: right;
+
+}
+
+.button {
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-black);
+  box-shadow: 4px 4px 0 var(--color-black);
+  color: var(--color-black);
+  display: block;
+  font-size: 1.25rem;
+  padding: .75rem 1rem;
+  max-width: 14rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .2s;
+}
+
+.hero-section {
+  padding-right: 0;
+  padding-bottom: 16rem;
+}
+
+.hero-section img {
+  display: block;
+  margin: 1.25rem 0 0 auto;
+  max-width: 100%;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+h1 {
+  font-size: 3rem;  
+  line-height: 105%;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 105%;
 }
 /* Utilitarios */
 
