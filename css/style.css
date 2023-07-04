@@ -48,6 +48,7 @@ header img {
 header nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: 1rem auto 0;
 }
 
 nav a {
@@ -252,9 +253,18 @@ footer img {
 }
 
 @media screen and (min-width:48rem) {
-  header {
+  header div {
+    align-items: center;
     display: flex;
+    justify-content: space-between;    
+  }
+
+  header img,
+  header nav,
+  header .button {
+    margin:0;
   }
 }
+
 
 
