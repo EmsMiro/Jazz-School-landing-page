@@ -27,7 +27,7 @@ h2 {
 }
 
 p {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;  
 }
 
 header, 
@@ -107,7 +107,9 @@ right: -4rem;
 height: 48px;
 width: 132px;
 margin: 2rem;
+  
 }
+
 
 .decoration {
   display: block;
@@ -181,7 +183,23 @@ footer nav a {
   display: block;
   padding-left: 0;  
 }
+.footer-paragraph {
+  font-size:1.5rem
+}
 
+.newsletter-form label {
+  display:block;
+  font-size: 1.4rem;
+  padding: 1.2rem 0 1rem 0;
+}
+
+.newsletter-form input {
+  border: 2px solid var(--color-black);
+  box-shadow: 4px 4px 0 var(--color-black);
+  font-size: 1.5rem;  
+  padding: .5rem;  
+  width: 90%;  
+}
 /* Utilitarios */
 
 .mt-1 {
