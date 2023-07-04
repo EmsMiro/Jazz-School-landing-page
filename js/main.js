@@ -28,3 +28,16 @@ cards.forEach(card => {
     card.classList.remove('card-hover');
   });
 });
+
+// Adicionando animação aos links do nav no header
+const navLinks = document.querySelectorAll('.nav-link');
+
+navLinks.forEach(link => {
+  link.addEventListener('mouseenter', () => {
+    link.classList.add('active');
+  });
+
+  link.addEventListener('mouseleave', () => {
+    link.classList.remove('active');
+  });
+});
