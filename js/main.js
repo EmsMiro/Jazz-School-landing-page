@@ -13,3 +13,18 @@ buttons.forEach(button => {
     button.style.color = '';
   });
 })
+
+// Obtém todos os elementos com a classe 'card'
+const cards = document.querySelectorAll('.card');
+
+// Adiciona o evento de 'mouseenter' para cada card
+cards.forEach(card => {
+  card.addEventListener('mouseenter', () => {
+    card.classList.add('card-hover');
+  });
+
+  // Adiciona o evento de 'mouseleave' para cada card
+  card.addEventListener('mouseleave', () => {
+    card.classList.remove('card-hover');
+  });
+});

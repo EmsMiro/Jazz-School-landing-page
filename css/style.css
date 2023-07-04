@@ -150,7 +150,7 @@ margin: 2rem;
   box-shadow: 4px 4px 0px 0px var(--color-black);
   max-height: 19rem;
   max-width: 17rem;
-  padding: 2rem 0 0 2rem;
+  padding: 2rem 0 0 2rem; 
 }
 
 .card:nth-child(2n) {
@@ -175,6 +175,18 @@ padding-right: 1.5rem;
   display: block;
   margin: 3rem 0 0 auto;
   width: fit-content;
+}
+
+/*cards animation with javascript*/
+
+.card-hover {
+  /* Estilos iniciais */
+  transition: transform 0.3s;
+}
+
+.card-hover:hover {
+  /* Estilos quando o mouse está sobre o card */
+  transform: translateY(-20px);
 }
 
 /* Footer*/
