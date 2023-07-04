@@ -251,4 +251,10 @@ footer img {
   }
 }
 
+@media screen and (min-width:48rem) {
+  header {
+    display: flex;
+  }
+}
+
 
