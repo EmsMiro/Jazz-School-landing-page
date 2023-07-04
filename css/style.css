@@ -79,6 +79,11 @@ text-align: right;
   transition: .2s;
 }
 
+.button:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+}
+
 .hero-section {
   padding-right: 0;
   padding-bottom: 16rem;
