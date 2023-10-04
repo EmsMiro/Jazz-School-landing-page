@@ -1,6 +1,7 @@
 # Jazz-School-landing-page
 ---
 ## Overview
+---
 The current project can showcase my current skills in HTML, CSS, and JavaScript, as well as the construction of a landing page.
 LIVE LINK: https://jazz-school-first-view.vercel.app/
 ---
